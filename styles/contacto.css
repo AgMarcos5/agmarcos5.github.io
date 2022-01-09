@@ -9,6 +9,18 @@
   font-family: "OfficeCodePro-Regular";
   border: 0;
   margin-bottom: 10px;
+  color: #dcdcde;
+  
+  background: -webkit-linear-gradient( #888888, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+
+  transition: 1s;
+}
+
+#contacto-container h1:hover{
+  transform: translateY(3px);
 }
 
 #contacto-container .separator {
@@ -104,6 +116,11 @@ codersrank-activity {
   border: 1px solid;
   cursor: pointer;
   transition: 1s;
+}
+
+.cv a {
+  text-decoration: none;
+  color: white;
 }
 
 .cv:hover {

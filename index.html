@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juego JS</title>
+    <title>Marcos Agüero - Portfolio</title>
     <link href="./styles/style.css" type="text/css" rel="stylesheet">
     <link href="./styles/oblivion.css" type="text/css" rel="stylesheet">
     <link href="./styles/contacto.css" type="text/css" rel="stylesheet">
+    <link href="./styles/galeria.css" type="text/css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <header id="inicio">
         <h1 data-aos="zoom-in">¡Hola! 
             <img src="./img/hand.png" class="hand"/>
         </br> Mi nombre es <b>Marcos Agüero</b>.</h1>
@@ -26,7 +27,7 @@
 
         <nav class="menu" id="game-navbar">
             <ul>
-              <li><a href="#game" id="inicio" tabindex="1">Inicio</a></li>
+              <li><a href="#" id="inicio" class="to-top" tabindex="1">Inicio</a></li>
               <li><a href="#game" id="oblivion" tabindex="2">Oblivion 3000</a></li>
               <li><a href="#game" id="galeria" tabindex="3">Galería</a></li>
               <li><a href="#game" id="contacto" tabindex="4">Contacto</a></li>
@@ -66,11 +67,11 @@
                     <div data-aos="fade-up"> 
                         <article>
                             <p>Oblivion 3000 es un videojuego en desarrollo para dispositivos móviles, con lanzamiento previsto para el año 2022.
-                                Su primer versión, realizada por <a href="https://www.linkedin.com/in/agueromarcos/">Marcos Agüero</a>, 
-                                <a href="https://www.linkedin.com/in/agustina-pieroni-41a1aa221/">Agustina Pieroni</a> y 
-                                <a href="https://www.linkedin.com/in/lautaro-echeverria/">Lautaro Echeverría</a>, 
+                                Su primer versión, realizada por <a href="https://www.linkedin.com/in/agueromarcos/"  target="_blank">Marcos Agüero</a>, 
+                                <a href="https://www.linkedin.com/in/agustina-pieroni-41a1aa221/" target="_blank">Agustina Pieroni</a> y 
+                                <a href="https://www.linkedin.com/in/lautaro-echeverria/" target="_blank">Lautaro Echeverría</a>, 
                                 se encuentra disponible en 
-                                <a href="https://play.google.com/store/apps/details?id=org.godotengine.oblivion">google play</a>.</p>   
+                                <a href="https://play.google.com/store/apps/details?id=org.godotengine.oblivion" target="_blank">google play</a>.</p>   
                                 <div class="logos">
                                     <img src="./img/sec-oblivion/godot.png" />
                                     <img src="./img/sec-oblivion/unmdp.png" />
@@ -80,7 +81,7 @@
                         <div class="noticia">
                             <div class="noticia_img"><img src="./img/sec-oblivion/noticia1.jpg" alt="piazzolla"></div>
                             <div class="noticia_text"><a
-                                    href="https://www.lacapitalmdp.com/oblivion-3000-el-videojuego-que-fusiona-una-mar-del-plata-distopica-y-la-musica-de-piazzolla/">
+                                    href="https://www.lacapitalmdp.com/oblivion-3000-el-videojuego-que-fusiona-una-mar-del-plata-distopica-y-la-musica-de-piazzolla/" target="_blank">
                                     <h3>Oblivion 3000, el videojuego que fusiona una Mar del Plata distópica y la música de Piazzolla</h3>
                                     <p>Diario La Capital - 14 de septiembre de 2021 </p>
                                 </a>
@@ -90,7 +91,7 @@
                         <div class="noticia">
                             <div class="noticia_img"><img src="./img/sec-oblivion/noticia2.jpg" alt="piazzolla"></div>
                             <div class="noticia_text"><a
-                                    href="https://www.lacapitalmdp.com/piazzolla-y-la-identidad-en-forma-de-videojuego/">
+                                    href="https://www.lacapitalmdp.com/piazzolla-y-la-identidad-en-forma-de-videojuego/" target="_blank">
                                     <h3>Piazzolla y la identidad en forma de videojuego</h3>
                                     <p>Diario La Capital - 6 de noviembre de 2021 </p>
                                 </a>
@@ -126,11 +127,43 @@
                     <p>Sensaciones que nunca supo que hubieran existido lo atravesaron por completo. El vacío en su interior se hizo más notorio aunque amalgamado por la nostalgia y la esperanza, las emociones fueron tales que tuvo que dejarse llevar por los minutos que duró la pieza. Y luego, el vacío nuevamente. Pero esta vez cargado del recuerdo de las emociones que pudo sentir. Robot se quedó congelado por un momento, hasta que volvió a hacer girar el disco. No podía creer que el resto de la humanidad se estuviera perdiendo de sentir así. Tenía que hacer algo.</p>
                 </div>     
             </div>
+            <div class="b-up"><a href="#game"><img src="./img/up.png"/></a></div>
         </section>
 
         <section id="galeria-container">
-            <h1>Galeria</h1>
+
+            <!--Header-->
+            <div class="video-wrapper">
+                <video playsinline autoplay muted loop>
+                  <source src="./img/sec-galeria/video.mp4" type="video/webm">
+                </video>
+                <div class="gal-title">
+                    <h1>Galería</h1>
+                </div>
+            </div>
+            
+            <!--Galería-->
+            <div class="img-container">
+                <div class="row">
+                    <div class="column">
+                        <figure><img src="./img/sec-galeria/1.jpg"></figure>
+                        <figure> <img src="./img/sec-galeria/3.jpg"></figure>
+                    </div>
+                    <div class="column">
+                        <figure><img src="./img/sec-galeria/2.jpg"></figure>
+                        <figure><img src="./img/sec-galeria/4.jpg"></figure>
+                    </div>
+                </div>
+                <figure><img src="./img/sec-galeria/5.jpg"></figure>
+            </div>
+            </br>
+
+
+            <div class="b-up"><a href="#game"><img src="./img/up.png"/></a></div>
+
+
            
+
         </section>
 
         <section id="contacto-container">
@@ -141,7 +174,7 @@
                 <div class="tabla">
                     <div class="avatar-container">
                         <img class="avatar" src="./img/sec-contacto/avatar.jpg" data-aos="flip-left">
-                        <div><span class="cv">Descargar CV</span></div>
+                        <div><span class="cv"><a href="./src/cv.pdf" target="_blank">Descargar CV</a></span></div>
                     </div>
                     <div class="footer-contact" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
                         
@@ -157,7 +190,7 @@
                             <span>aguermar@gmail.com</span>
                         </a>
     
-                        <a href="https://www.linkedin.com/in/agueromarcos/">
+                        <a href="https://www.linkedin.com/in/agueromarcos/"  target="_blank">
                             <span class="icon-fondo">
                             <svg class="MuiSvgIcon-root" focusable="false"
                                 viewBox="0 0 24 24" aria-hidden="true">
@@ -168,7 +201,7 @@
                             </span>
                             <span>Linkedin</span>
                         </a>
-                        <a href="https://github.com/AgMarcos5">
+                        <a href="https://github.com/AgMarcos5" target="_blank">
                             <span class="icon-fondo">
                                 <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
                                     <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path>
@@ -176,7 +209,7 @@
                             </span>
                             <span>Github AgMarcos5 </span>
                         </a>
-                        <a href="https://www.instagram.com/temdi.5">
+                        <a href="https://www.instagram.com/temdi.5" target="_blank">
                             <span class="icon-fondo">
                             <svg class="MuiSvgIcon-root" focusable="false"
                                 viewBox="0 0 24 24" aria-hidden="true">
@@ -187,7 +220,7 @@
                             </span>
                             <span>Instagram</span>
                         </a>
-                        <a href="https://twitter.com/Temdi5">
+                        <a href="https://twitter.com/Temdi5" target="_blank">
                             <span class="icon-fondo">
                             <svg class="MuiSvgIcon-root" focusable="false"
                                 viewBox="0 0 24 24" aria-hidden="true">
@@ -206,11 +239,11 @@
                 <br>    
                 <div class="separator"></div><br>
             </div>
-            
+            <div class="b-up"><a href="#game"><img src="./img/up.png"/></a></div>
         </section>
     </div>
-
-    <footer><a href="#game"><img src="./img/up.png"/></a></footer>
+    <footer></footer>
+    
     
     <script src="https://unpkg.com/@codersrank/activity@x.x.x/codersrank-activity.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
