@@ -357,6 +357,38 @@ header:hover .hand{
 
 
 
+.scroll-secciones {
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    opacity: 0;
+    transition: 1s;
+    pointer-events:none;
+}
+.scroll-secciones img{
+    transform: rotate(180deg);
+}
+
+.scroll-secciones.showButton{
+    pointer-events: initial;
+    opacity: 1 !important;
+    transform: translateY(-5px);
+    animation: lev 3s infinite;
+}
+
+@keyframes lev {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+      }
+  }
+
 /* SECCIONES */
 .info-container{
     color: #d7d7d7;

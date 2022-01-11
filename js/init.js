@@ -35,6 +35,13 @@
                 let container = document.querySelector(`#${puerta}-container`);
                 container.classList.add("mostrar");
                 document.querySelector("#game").scrollIntoView();
+
+                let buttonScroll = document.querySelector(".scroll-secciones");
+                buttonScroll.classList.add("showButton");
+                buttonScroll.addEventListener("click", function() {
+                    console.log("dadasdasdsa")
+                    buttonScroll.classList.remove("showButton");
+                });
             }
           
         });
@@ -43,6 +50,7 @@
             let {puerta} = e.detail;
             if(puerta !== "inicio"){
                 document.querySelector(`#${puerta}-container`).classList.remove("mostrar");
+                document.querySelector(".scroll-secciones").classList.remove("showButton");
             }
 
             /*
