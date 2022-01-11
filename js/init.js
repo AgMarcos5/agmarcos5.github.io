@@ -39,7 +39,6 @@
                 let buttonScroll = document.querySelector(".scroll-secciones");
                 buttonScroll.classList.add("showButton");
                 buttonScroll.addEventListener("click", function() {
-                    console.log("dadasdasdsa")
                     buttonScroll.classList.remove("showButton");
                 });
             }
@@ -52,12 +51,6 @@
                 document.querySelector(`#${puerta}-container`).classList.remove("mostrar");
                 document.querySelector(".scroll-secciones").classList.remove("showButton");
             }
-
-            /*
-            setTimeout(()=>{
-                document.querySelector(`#${puerta}-container`).style.display = "none";
-            },1000);
-            */
 
         });
 
