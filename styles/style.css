@@ -87,17 +87,44 @@ header:hover .hand{
     top: 10px;
 }
 
+
+@media (max-width: 1050px){
+    header{
+      padding: 10px;
+    }
+  }
+
+
+@media (max-width: 750px){
+    #game{
+        font-size: max(0.8em, 8px);
+    }
+    .keys {
+        width: 60px;
+    }
+}
+
+
+
+
 /* separador */
 .separator{
-    width: 500px;
+    max-width: 500px;
     height: 4px;
     background: url('../img/separador.png') repeat-x;
     margin: 0 auto;
 } 
 
+
+
+
+
+
+
+
 /*  NAVBAR  */
 .menu{
-    height: 136px;
+    height: 165px;
 }
 
 .menu ul{
@@ -132,6 +159,10 @@ header:hover .hand{
     color: #43ed83;
 }
 
+.menu a img{
+    display: none;
+}
+
 
 .menu .dot {
     position: relative;
@@ -140,8 +171,8 @@ header:hover .hand{
     height: 29px;
     background: url(../img/list-icon.png);
     opacity: 0;
-    -webkit-transform: translateY(-128px);
-    transform: translateY(-128px);
+    -webkit-transform: translateY(-148px);
+    transform: translateY(-148px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     margin: 0 auto;
@@ -149,14 +180,22 @@ header:hover .hand{
 }
 
 .menu li:nth-child(1):hover ~ .dot {
-    -webkit-transform: translateY(-118px);
-    transform: translateY(-118px);
+    -webkit-transform: translateY(-145px);
+    transform: translateY(-145px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
 }
 
 .menu li:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateY(-120px);
+    transform: translateY(-120px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+
+.menu li:nth-child(3):hover ~ .dot {
     -webkit-transform: translateY(-90px);
     transform: translateY(-90px);
     -webkit-transition: all 0.2s ease-in-out;
@@ -164,7 +203,7 @@ header:hover .hand{
     opacity: 1;
   }
   
-  .menu li:nth-child(3):hover ~ .dot {
+  .menu li:nth-child(4):hover ~ .dot {
     -webkit-transform: translateY(-62px);
     transform: translateY(-62px);
     -webkit-transition: all 0.2s ease-in-out;
@@ -172,7 +211,7 @@ header:hover .hand{
     opacity: 1;
   }
   
-  .menu li:nth-child(4):hover ~ .dot {
+  .menu li:nth-child(5):hover ~ .dot {
     -webkit-transform: translateY(-32px);
     transform: translateY(-32px);
     -webkit-transition: all 0.2s ease-in-out;
@@ -200,32 +239,100 @@ header:hover .hand{
     backdrop-filter: blur(24px);
 }
 
+
 .navfix li {
     display: inline;
     padding: 28px;
 }
 
 .navfix .dot {
-    -webkit-transform:  translateX(-200px)  translateY(-40px);
-    transform:          translateX(-200px)  translateY(-40px);
+    -webkit-transform:  translateX(-300px)  translateY(-40px);
+    transform:          translateX(-300px)  translateY(-40px);
 }
 
 .navfix li:nth-child(1):hover ~ .dot{
-    -webkit-transform:  translateX(-180px)  translateY(-40px);
-    transform:          translateX(-180px)  translateY(-40px);
+    -webkit-transform:  translateX(-260px)  translateY(-40px);
+    transform:          translateX(-260px)  translateY(-40px);
 }
 .navfix li:nth-child(2):hover ~ .dot{
-    -webkit-transform:  translateX(-60px)     translateY(-40px);
-    transform:          translateX(-60px)  translateY(-40px);
+    -webkit-transform:  translateX(-135px)     translateY(-40px);
+    transform:          translateX(-135px)  translateY(-40px);
 }
 .navfix li:nth-child(3):hover ~ .dot{
-    -webkit-transform:  translateX(130px)     translateY(-40px);
-    transform:          translateX(130px)  translateY(-40px);
+    -webkit-transform:  translateX(55px)     translateY(-40px);
+    transform:          translateX(55px)  translateY(-40px);
 }
 .navfix li:nth-child(4):hover ~ .dot{
-    -webkit-transform:  translateX(260px)     translateY(-40px);
-    transform:          translateX(260px)  translateY(-40px);
+    -webkit-transform:  translateX(205px)     translateY(-40px);
+    transform:          translateX(205px)  translateY(-40px);
 }
+.navfix li:nth-child(5):hover ~ .dot{
+    -webkit-transform:  translateX(340px)     translateY(-40px);
+    transform:          translateX(340px)  translateY(-40px);
+}
+
+
+@media (max-width:860px){
+    .navfix li img{
+        display: inline-block;
+    }
+    .navfix li span{
+        display: none;
+    }
+    .navfix{
+        padding: 10px 0;
+    }
+
+    .navfix li:nth-child(1):hover ~ .dot{
+        -webkit-transform:  translateX(-130px)  translateY(-45px);
+        transform:          translateX(-130px)  translateY(-45px);
+    }
+    .navfix li:nth-child(2):hover ~ .dot{
+        -webkit-transform:  translateX(-30px)     translateY(-45px);
+        transform:          translateX(-30px)  translateY(-45px);
+    }
+    .navfix li:nth-child(3):hover ~ .dot{
+        -webkit-transform:  translateX(70px)     translateY(-45px);
+        transform:          translateX(70px)  translateY(-45px);
+    }
+    .navfix li:nth-child(4):hover ~ .dot{
+        -webkit-transform:  translateX(165px)     translateY(-45px);
+        transform:          translateX(165px)  translateY(-45px);
+    }
+    .navfix li:nth-child(5):hover ~ .dot{
+        -webkit-transform:  translateX(260px)     translateY(-45px);
+        transform:          translateX(260px)  translateY(-45px);
+    }
+
+}
+
+@media (max-width:499px){
+    .navfix li{
+        padding: 16px !important;
+    }
+    .navfix li:nth-child(1):hover ~ .dot{
+        -webkit-transform:  translateX(-80px)  translateY(-45px);
+        transform:          translateX(-80px)  translateY(-45px);
+    }
+    .navfix li:nth-child(2):hover ~ .dot{
+        -webkit-transform:  translateX(-5px)     translateY(-45px);
+        transform:          translateX(-5px)  translateY(-45px);
+    }
+    .navfix li:nth-child(3):hover ~ .dot{
+        -webkit-transform:  translateX(70px)     translateY(-45px);
+        transform:          translateX(70px)  translateY(-45px);
+    }
+    .navfix li:nth-child(4):hover ~ .dot{
+        -webkit-transform:  translateX(140px)     translateY(-45px);
+        transform:          translateX(140px)  translateY(-45px);
+    }
+    .navfix li:nth-child(5):hover ~ .dot{
+        -webkit-transform:  translateX(215px)     translateY(-45px);
+        transform:          translateX(215px)  translateY(-45px);
+    }
+}
+
+
 
 
 /*  JUEGO   */
@@ -237,6 +344,7 @@ header:hover .hand{
     height: 500px;
     margin: 0 auto;
     background-color: #151515;
+    overflow: hidden;
 }
 
 .game-container canvas {
@@ -259,6 +367,14 @@ header:hover .hand{
     transition: 1s;
     position: relative;
     top:100px;
+    overflow: hidden;
+    height: 0px;
+}
+
+#proyectos-container{
+    opacity: 0;
+    transition: 1s;
+    
     overflow: hidden;
     height: 0px;
 }

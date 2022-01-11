@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcos Agüero - Portfolio</title>
+    <link rel="icon" href="./src/favicon.ico" type="image/x-icon">
     <link href="./styles/style.css" type="text/css" rel="stylesheet">
     <link href="./styles/oblivion.css" type="text/css" rel="stylesheet">
+    <link href="./styles/proyectos.css" type="text/css" rel="stylesheet">
     <link href="./styles/contacto.css" type="text/css" rel="stylesheet">
     <link href="./styles/galeria.css" type="text/css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -19,18 +21,19 @@
         </br> Mi nombre es <b>Marcos Agüero</b>.</h1>
 
         <h2>Soy estudiante avanzado de ingeniería informática en la UNMDP y me desempeño como ilustrador freelance.
-            Estoy dando mis primeros pasos en el desarrollo de videojuegos, un área que realmente me apasiona 
-            y donde puedo integrar mis conocimientos tanto de arte como de programación.
+            Con el objetivo de capacitarme al máximo sobre el front end y desarrollo de videojuegos, áreas que realmente 
+            me apasionan y donde puedo integrar mis conocimientos tanto de arte como de programación.
         </h2>
 
         <div class="separator"></div>
 
         <nav class="menu" id="game-navbar">
             <ul>
-              <li><a href="#" id="inicio" class="to-top" tabindex="1">Inicio</a></li>
-              <li><a href="#game" id="oblivion" tabindex="2">Oblivion 3000</a></li>
-              <li><a href="#game" id="galeria" tabindex="3">Galería</a></li>
-              <li><a href="#game" id="contacto" tabindex="4">Contacto</a></li>
+              <li><a href="#" id="inicio" class="to-top" tabindex="1"><img src="./img/nav_home.png"/><span>Inicio</span></a></li>
+              <li><a href="#game" id="oblivion" tabindex="2"><img src="./img/nav_3000.png"/><span>Oblivion 3000</span></a></li>
+              <li><a href="#game" id="proyectos" tabindex="3"><img src="./img/nav_doc.png"/><span>Proyectos</span></a></li>
+              <li><a href="#game" id="galeria" tabindex="4"><img src="./img/nav_gal.png"/><span>Galería</span></a></li>
+              <li><a href="#game" id="contacto" tabindex="5"><img src="./img/nav_contact.png"/><span>Contacto</span></a></li>
               <div class="dot"></div>
             </ul>
             
@@ -130,6 +133,75 @@
             <div class="b-up"><a href="#game"><img src="./img/up.png"/></a></div>
         </section>
 
+        <section id="proyectos-container">
+            <div class="container">
+                <span class="frase"><h1>Proyectos</h1></span>
+                <div class="separator" style="max-width: 100%;"></div>
+                <br>
+                
+                <div class="pr-element">
+                    <div class="pr-image" style="background-image: url(./img/sec-proyectos/pr_portfolio.jpg);"></div>
+                    <div class="pr-info">
+                        <h2>Portfolio</h2>
+                        <p>Este mismo sitio fue desarrollado utilizando html, css y javascript vanilla, incluyendo todo el apartado del videojuego.</p>
+                        <div class="pr-footer">
+                            <div class="pr-tags">
+                                <span class="tag ht">HTML</span> <span class="tag cs">CSS</span> <span class="tag js">Javascript</span>
+                            </div>
+                            <div><a href="https://github.com/AgMarcos5/portfolio" target="_blank">Ver en github</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pr-element">
+                    <div class="pr-image"  style="background-image: url(./img/sec-proyectos/pr_oblivion.jpg);"></div>
+                    <div class="pr-info">
+                        <h2>Oblivion 3000</h2>
+                        <p>Videojuego desarrollado para la cátedra de ingeniería de videojuegos en la UNMDP, utilizando el motor de Godot. 
+                            Actualmente continúo el proyecto como trabajo final de la carrera.
+                        </p>
+                        <div class="pr-footer">
+                            <div class="pr-tags">
+                                <span class="tag">Godot</span> <span class="tag">GDScript</span>
+                            </div>
+                            <div><a href="https://github.com/AgMarcos5/Oblivion-3000" target="_blank">Ver en github</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="link">
+                    <a href="https://github.com/AgMarcos5" target="_blank">
+                        Ver más en 
+                        <span class="icon-fondo">
+                            <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2 0 1.9 1.2 1.9 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6 0-3.2 0 0 1-.3 3.4 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8 0 3.2.9.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1 .9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0 0 12 .3"></path>
+                            </svg>
+                        </span>
+                        <span>/AgMarcos5 </span>
+                    </a>
+                </div>
+
+                <div class="tec">
+                    <h3>
+                        Algunos de los lenguajes de programación, herramientas y otras tecnologías con las que he tenido contacto y continúo aprendiendo: 
+                    </h3>
+                    <span class="tag ht">HTML</span> <span class="tag cs">CSS</span> <span class="tag js">Javascript</span> <span class="tag">Bootstrap</span> 
+                    <span class="tag">Godot</span> <span class="tag">GDScript</span> <span class="tag">Unity</span> 
+                    <span class="tag re">React.js</span> <span class="tag nd">Node.Js</span> <span class="tag">Express.Js</span> 
+                    <span class="tag">C</span> <span class="tag">C++</span> <span class="tag">Java</span> 
+                    <span class="tag">Photoshop</span> <span class="tag">Clip Studio Paint</span> <span class="tag">Aseprite</span> 
+                    <span class="tag">Git</span> <span class="tag">GitHub</span> <span class="tag">MySql</span> 
+                    <span class="tag">Oracle DB</span> 
+
+                </div>
+                
+                <br>
+                <codersrank-activity  class="github_act" username="agmarcos5" legend="false" labels tooltip step="5" ></codersrank-activity>
+                <br>
+                <div class="b-up"><a href="#game"><img src="./img/up.png"/></a></div>
+            </div>
+        </section>
+
         <section id="galeria-container">
 
             <!--Header-->
@@ -169,14 +241,14 @@
         <section id="contacto-container">
             <div class="container">
                 <span class="frase"><h1>Contacto</h1></span>
-                <div class="separator"></div>
+                <div class="separator" style="max-width: 100%;"></div>
                 <br>
                 <div class="tabla">
                     <div class="avatar-container">
-                        <img class="avatar" src="./img/sec-contacto/avatar.jpg" data-aos="flip-left">
+                        <img class="avatar" src="./img/sec-contacto/avatar.jpg" >
                         <div><span class="cv"><a href="./src/cv.pdf" target="_blank">Descargar CV</a></span></div>
                     </div>
-                    <div class="footer-contact" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                    <div class="footer-contact">
                         
                         <a href="mailto:aguermar@gmail.com">
                             <span class="icon-fondo">
@@ -235,7 +307,8 @@
                 </div>
                 
                 <br>
-                <codersrank-activity  username="agmarcos5" legend="false" labels tooltip step="5" ></codersrank-activity>
+                <codersrank-activity  class="github_act" username="agmarcos5" legend="false" labels tooltip step="5" ></codersrank-activity>
+                
                 <br>    
                 <div class="separator"></div><br>
             </div>

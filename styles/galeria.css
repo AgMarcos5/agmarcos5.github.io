@@ -16,11 +16,12 @@ video {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
+    width: 1000px;
     opacity: .2;
-    object-position: 0 -640px;
+    object-position: 0 -700px;
     transition: 1s;
 }
+
 
 
 .gal-title{
@@ -91,5 +92,8 @@ figure {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    .row {
+        flex-direction: column;
     }
   }

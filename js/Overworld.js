@@ -67,13 +67,15 @@ class Overworld {
         let hero = this.map.gameObjects["hero"];
         if(this.currentDoor !== name){
             switch(name){
-                case 'oblivion' : hero.changePosition(24,9);
+                case 'oblivion' : hero.changePosition(25,9);
                 break;
-                case 'contacto' : hero.changePosition(43,7);
+                case 'contacto' : hero.changePosition(44,7);
                 break;
-                case 'galeria'  : hero.changePosition(44,16);
+                case 'galeria'  : hero.changePosition(45,16);
                 break;
-                default : hero.changePosition(15,17);
+                case 'proyectos'  : hero.changePosition(12,14);
+                break;
+                default : hero.changePosition(16,17);
             }
         }
     }

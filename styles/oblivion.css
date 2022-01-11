@@ -12,7 +12,7 @@
     width: 100%;
     height: 368px;
     top: 60px;
-    
+    background-position: center;
     transition: 1s;
 }
 
@@ -22,7 +22,7 @@
     height: inherit;
     background-image: url(../img/sec-oblivion/oblivion-header-front.png);
     top: -70px;
-    
+    background-position: center;
     transition: 1s;
 }
 
@@ -40,6 +40,12 @@
     top: -190px;
     transition: 1s;
     z-index: 2;
+}
+
+@media(max-width:1170px){
+  #robot{
+    right: 1% !important;
+  }
 }
 
 
@@ -255,6 +261,9 @@ article.abrir{
   font-weight: bold;
 }
 
+
+
+
 /*  GALLERY */
 .oblivion-gallery {
   max-width: 1000px;
@@ -264,6 +273,17 @@ article.abrir{
   font-weight: 100;
   letter-spacing: 0.05em;
   line-height: 1.3em;
+  overflow: hidden;
+}
+
+
+@media (max-width:1030px){
+  .oblivion-content .container {
+    padding: 20px;
+  }
+  .oblivion-gallery{
+    padding: 24px;
+  }
 }
 
 .oblivion-gallery div{
@@ -271,6 +291,15 @@ article.abrir{
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
+}
+
+@media (max-width:860px){
+  .oblivion-gallery div {
+    flex-direction: column;
+  }
+  .oblivion-gallery img{
+    padding: 10px 0 !important;
+  }
 }
 
 .oblivion-gallery img{

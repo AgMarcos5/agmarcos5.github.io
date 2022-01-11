@@ -32,7 +32,8 @@
   flex-direction: column;
   justify-content: space-around;
   margin: 0 auto;
-  min-width: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .footer-contact .icon-fondo {
@@ -125,4 +126,32 @@ codersrank-activity {
 
 .cv:hover {
   color: #43ed83;
+}
+
+.github_act{
+  max-width: 1000px;
+  padding: 0;
+}
+
+@media (max-width:1000px){
+  .tabla {
+    flex-direction: column;
+  }
+  .avatar-container div {
+    margin-bottom: 20px;
+  }
+  .github_act{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:520px){
+  .avatar-container{
+    min-width: auto;
+  }
+  .avatar-container img{
+      max-width: 95%;
+      height: auto;
+  }
 }
