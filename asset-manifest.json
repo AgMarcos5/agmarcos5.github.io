@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61313cd5.css",
+    "main.js": "/static/js/main.409918ba.js",
+    "static/media/game_1.jpg": "/static/media/game_1.debbcad3b714c6a624f4.jpg",
+    "static/media/video.mp4": "/static/media/video.46d3c80043cea2924309.mp4",
+    "static/media/3.jpg": "/static/media/3.07ec6b23c7dcbced7103.jpg",
+    "static/media/2.jpg": "/static/media/2.14b2301ec681da1b96e9.jpg",
+    "static/media/1.jpg": "/static/media/1.6a28d9d5ea8ce5ba5bb2.jpg",
+    "static/media/5.jpg": "/static/media/5.7cfc8e7ed0bb3c183df8.jpg",
+    "static/media/game_4.jpg": "/static/media/game_4.27e172150d81cc9030f9.jpg",
+    "static/media/oblivion-header-back.jpg": "/static/media/oblivion-header-back.36d5892da114660814d1.jpg",
+    "static/media/4.jpg": "/static/media/4.5cd37694dae0848b5843.jpg",
+    "static/media/pr_oblivion.jpg": "/static/media/pr_oblivion.a29fc0e32cce2c0f7dda.jpg",
+    "static/media/robot.png": "/static/media/robot.136e4d00d8d02e6d7619.png",
+    "static/media/TabacGlamG4-Regular.otf": "/static/media/TabacGlamG4-Regular.ad5361a72db3f4ab3285.otf",
+    "static/media/pr_portfolio.jpg": "/static/media/pr_portfolio.eaa049083643e7ada4ca.jpg",
+    "static/media/cv.pdf": "/static/media/cv.f96ecc2a586725280e8e.pdf",
+    "static/media/StreetLower.png": "/static/media/StreetLower.9440eae9928a727f18ed.png",
+    "static/media/OfficeCodePro-Regular.ttf": "/static/media/OfficeCodePro-Regular.e3d60c60f3226fc0674e.ttf",
+    "static/media/OfficeCodePro-Bold.ttf": "/static/media/OfficeCodePro-Bold.c96cfce4448fc8f19dcc.ttf",
+    "static/media/pr_qrcode.jpg": "/static/media/pr_qrcode.4120bdf2f2d099f7faac.jpg",
+    "static/media/pr_rps.jpg": "/static/media/pr_rps.01563ade3e29e696cfd5.jpg",
+    "static/media/oblivion-header-front.png": "/static/media/oblivion-header-front.20da045b6a3ae349032f.png",
+    "static/media/noticia1.jpg": "/static/media/noticia1.24f4a2475c5698149619.jpg",
+    "static/media/noticia2.jpg": "/static/media/noticia2.8d171b8771870dffc59c.jpg",
+    "static/media/pr_pokedex.jpg": "/static/media/pr_pokedex.e3da8bac03c44f64a1dc.jpg",
+    "static/media/game_3.jpg": "/static/media/game_3.4ba3defe8a0ca08e165b.jpg",
+    "static/media/avatar.jpg": "/static/media/avatar.50d735125446adeeaabf.jpg",
+    "static/media/game_2.jpg": "/static/media/game_2.7fdfa5f734e7dc594773.jpg",
+    "static/media/StreetUpper.png": "/static/media/StreetUpper.eafa1ffceaa9d9c2cf6e.png",
+    "static/media/hand.png": "/static/media/hand.283e678d03c3a0ce8ceb.png",
+    "static/media/oblivion-header-title.png": "/static/media/oblivion-header-title.9b5ec878bebcf3b0b257.png",
+    "index.html": "/index.html",
+    "main.61313cd5.css.map": "/static/css/main.61313cd5.css.map",
+    "main.409918ba.js.map": "/static/js/main.409918ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61313cd5.css",
+    "static/js/main.409918ba.js"
+  ]
+}
