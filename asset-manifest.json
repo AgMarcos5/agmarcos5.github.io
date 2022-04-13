@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61313cd5.css",
-    "main.js": "/static/js/main.09a614c5.js",
+    "main.js": "/static/js/main.bd439466.js",
     "static/media/game_1.jpg": "/static/media/game_1.debbcad3b714c6a624f4.jpg",
     "static/media/video.mp4": "/static/media/video.46d3c80043cea2924309.mp4",
     "static/media/3.jpg": "/static/media/3.07ec6b23c7dcbced7103.jpg",
@@ -34,10 +34,10 @@
     "static/media/oblivion-header-title.png": "/static/media/oblivion-header-title.9b5ec878bebcf3b0b257.png",
     "index.html": "/index.html",
     "main.61313cd5.css.map": "/static/css/main.61313cd5.css.map",
-    "main.09a614c5.js.map": "/static/js/main.09a614c5.js.map"
+    "main.bd439466.js.map": "/static/js/main.bd439466.js.map"
   },
   "entrypoints": [
     "static/css/main.61313cd5.css",
-    "static/js/main.09a614c5.js"
+    "static/js/main.bd439466.js"
   ]
 }
