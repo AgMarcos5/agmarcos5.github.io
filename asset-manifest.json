@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.61313cd5.css",
-    "main.js": "/static/js/main.c3c885d9.js",
+    "main.js": "/static/js/main.09a614c5.js",
     "static/media/game_1.jpg": "/static/media/game_1.debbcad3b714c6a624f4.jpg",
     "static/media/video.mp4": "/static/media/video.46d3c80043cea2924309.mp4",
     "static/media/3.jpg": "/static/media/3.07ec6b23c7dcbced7103.jpg",
@@ -15,7 +15,7 @@
     "static/media/robot.png": "/static/media/robot.136e4d00d8d02e6d7619.png",
     "static/media/TabacGlamG4-Regular.otf": "/static/media/TabacGlamG4-Regular.ad5361a72db3f4ab3285.otf",
     "static/media/pr_portfolio.jpg": "/static/media/pr_portfolio.eaa049083643e7ada4ca.jpg",
-    "static/media/cv.pdf": "/static/media/cv.d72c61b6ea3dd6c94cf6.pdf",
+    "static/media/cv.pdf": "/static/media/cv.97bfe1b19f0948fbbaa7.pdf",
     "static/media/StreetLower.png": "/static/media/StreetLower.9440eae9928a727f18ed.png",
     "static/media/pr_aerolab.jpg": "/static/media/pr_aerolab.6ec11955f684e765482d.jpg",
     "static/media/OfficeCodePro-Regular.ttf": "/static/media/OfficeCodePro-Regular.e3d60c60f3226fc0674e.ttf",
@@ -34,10 +34,10 @@
     "static/media/oblivion-header-title.png": "/static/media/oblivion-header-title.9b5ec878bebcf3b0b257.png",
     "index.html": "/index.html",
     "main.61313cd5.css.map": "/static/css/main.61313cd5.css.map",
-    "main.c3c885d9.js.map": "/static/js/main.c3c885d9.js.map"
+    "main.09a614c5.js.map": "/static/js/main.09a614c5.js.map"
   },
   "entrypoints": [
     "static/css/main.61313cd5.css",
-    "static/js/main.c3c885d9.js"
+    "static/js/main.09a614c5.js"
   ]
 }
